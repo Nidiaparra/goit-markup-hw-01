@@ -1,0 +1,83 @@
+:root {
+  --primary-color: rgba(47, 48, 58, 1);
+  --text-paragraph: rgba(117, 117, 117, 1);
+  --text-subtitle1: rgba(33, 33, 33, 1);
+  --color-hover: rgba(33, 150, 243, 1);
+  --boton-background: rgba(245, 244, 250, 1);
+  --color-text: #ffffff;
+  --color-text-foot: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  background-color: var(--color-background);
+  color: var(--text-subtitle1);
+  font-size: 14px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.effect-color {
+  border: none;
+  cursor: pointer;
+}
+
+.effect-color:hover {
+  color: var(--text-subtitle1);
+  background-color: var(--color-hover);
+  border: none;
+}
+
+.custom-items {
+  color: var(--color-hover);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.custom-items:hover {
+  color: var(--color-text);
+  color: var(--text-subtitle1);
+}
+
+.custom-items:focus {
+  color: var(--color-hover);
+}
+
+.text-h3-caption {
+  width: 270px;
+  height: 16px;
+  color: var(--text-subtitle1);
+  font-weight: 700;
+}
+
+.text-h3-menu {
+  text-align: center;
+  color: var(--text-subtitle1);
+  font-weight: 500;
+  font-size: 16px;
+}
+.p-text {
+  color: var(--text-paragraph);
+}
+
+.section-background {
+  background-color: var(--primary-color);
+  font-style: normal;
+}
+
+.color-foot-font {
+  color: var(--color-text-foot);
+}
+.header-link-selected {
+  color: var(--text-subtitle1);
+  text-decoration: none;
+}
+
+.header-link-selected:hover {
+  color: var(--color-hover);
+  text-decoration: none;
+}

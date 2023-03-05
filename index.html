@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width. initial-scale=1.0" />
-    <title>T1 Nidia Parra</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>T2 Nidia Parra</title>
   </head>
   <body>
     <header>
       <nav>
         <ul>
-          <li><h2>WebStudio</h2></li>
-          <li>Portafolio</li>
+          <li>
+            <a href="index.html" class="custom-items"><h2>WebStudio</h2></a>
+          </li>
+          <li>
+            <a href="index.html" class="custom-items"><h3>Estudio</h3></a>
+          </li>
+          <li>
+            <a href="portfolio.html" class="header-link-selected"
+              ><h3>Portafolio</h3></a
+            >
+          </li>
           <li>Contactos</li>
         </ul>
       </nav>
@@ -18,17 +36,24 @@
         <ul>
           <li>
             <h4>
-              <a href="mailto:info@devestudio.com">info@devestudio.com</a>
+              <a href="mailto:info@devestudio.com" class="custom-items"
+                >info@devestudio.com</a
+              >
             </h4>
           </li>
           <li>
-            <h4><a href="tel:+52552960000">+52552960000</a></h4>
+            <h4>
+              <a href="tel:+52552960000" class="header-link-selected"
+                >+52552960000</a
+              >
+            </h4>
           </li>
         </ul>
       </div>
       <section>
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button">Solicite nuestro servicio</button>
+        <button type="button" class="effect-color">
+          Solicite nuestro servicio
+        </button>
       </section>
     </header>
     <main>
@@ -36,7 +61,7 @@
         <ul>
           <li>
             <h3>ATENCIÓN A LOS DETALLES</h3>
-            <p>
+            <p class="p-text">
               Nos adentramos en todos los detalles y procesos de su negocio para
               así desarrollar una solución a su medida.
             </p>
@@ -45,7 +70,7 @@
         <ul>
           <li>
             <h4>PUNTUALIDAD</h4>
-            <p>
+            <p class="p-text">
               Con nosotros usted puede sentirse seguro y protegido. Un principio
               importante de la empresa respetar su tiempo y respetar los plazos
               acordados
@@ -55,7 +80,7 @@
         <ul>
           <li>
             <h4>PLANIFICACIÓN</h4>
-            <p>
+            <p class="p-text">
               Usted podrá oservar y participar en cada fase del desarrollo y
               aplicación de soluciones
             </p>
@@ -64,20 +89,40 @@
         <ul>
           <li>
             <h4>TECNOLOGÍA MODERNA</h4>
-            <p>
+            <p class="p-text">
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales
             </p>
           </li>
         </ul>
       </section>
-
       <section>
         <h2>A qué nos dedicamos</h2>
         <ul>
-          <li><img src="./images/computer.jpg" alt="Computadora" /></li>
-          <li><img src="./images/cell.jpg" alt="Celular" /></li>
-          <li><img src="./images/tablet.jpg" alt="Computadora" /></li>
+          <li>
+            <img
+              src="./images/computer.jpg"
+              width="313.16"
+              height="313.7"
+              alt="Computadora"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/cell.jpg"
+              width="313"
+              height="313"
+              alt="Celular"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/tablet.jpg"
+              width="313"
+              height="313"
+              alt="Computadora"
+            />
+          </li>
         </ul>
       </section>
       <section>
@@ -85,65 +130,72 @@
         <ul>
           <li>
             <img
-              src="./images/disproductos.jpg"
+              src="./images/disproducts.jpg"
+              width="270"
+              height="260"
               alt="Profesional en distribución de productos"
-              width="300"
-              height="300"
             />
           </li>
-          <li><h3>Andrés Cubo</h3></li>
-          <li><p>Diseñador de productos</p></li>
+          <li><h3 class="text-h3-caption">Andrés Cubo</h3></li>
+          <li><p class="p-text">Diseñador de productos</p></li>
         </ul>
         <ul>
           <li>
             <img
               src="./images/frontEnd.jpg"
+              width="270"
+              height="260"
               alt="Desarrolladora FrontEnd"
-              width="300"
-              height="300"
             />
           </li>
-          <li><h3>Carla Palacios</h3></li>
-          <li><p>Diseñadora Frontend</p></li>
+          <li><h3 class="text-h3-caption">Carla Palacios</h3></li>
+          <li><p class="p-text">Diseñadora Frontend</p></li>
         </ul>
         <ul>
           <li>
             <img
               src="./images/marketing.jpg"
-              alt="Profesional de narketing"
-              width="300"
-              height="300"
+              width="270"
+              height="260"
+              alt="Profesional de Marketing"
             />
           </li>
 
-          <li><h3>Mario Dorado</h3></li>
-          <li><p>marketing</p></li>
+          <li><h3 class="text-h3-caption">Mario Dorado</h3></li>
+          <li><p class="p-text">Marketing</p></li>
         </ul>
         <ul>
           <li>
             <img
               src="./images/disIU.jpg"
+              width="270"
+              height="260"
               alt="Diseñador IU"
-              width="300"
-              height="300"
             />
           </li>
-          <li><h3>Pablo Mijango</h3></li>
-          <li><p>Diseñador IU.</p></li>
+          <li><h3 class="text-h3-caption">Pablo Mijango</h3></li>
+          <li><p class="p-text">Diseñador IU.</p></li>
         </ul>
       </section>
     </main>
     <footer>
-      <address>
+      <address class="section-background">
         <ul>
           <li>
-            <p>
-              WebStudio Caiz. Ticoman 500 ciudad de México, CDMX, México México,
-              CDMX, México
+            <p class="custom-items">WebStudio</p>
+            <p class="color-foot-font">
+              Caiz. Ticoman 500 ciudad de México, CDMX, México México, CDMX,
+              México
             </p>
           </li>
-          <li><a href="mailto:info@devestudio.com">info@devestudio.com</a></li>
-          <li><a href="tel:+52552960000">+52552960000</a></li>
+          <li>
+            <a href="mailto:info@devestudio.com" class="custom-items"
+              >info@devestudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+52552960000" class="custom-items">+52552960000</a>
+          </li>
         </ul>
       </address>
     </footer>
